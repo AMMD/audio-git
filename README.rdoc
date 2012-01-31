@@ -1,16 +1,13 @@
-Audiogit
-==========
+== Audiogit
 
 Audiogit is a plugin for ardour to commit and push automatically to a git repository.
 This project is part of the Audio-git project which aims to enable people to freely share the "source code" for audio projects.
 
-REQUIREMENTS
-------------
+== REQUIREMENTS
 
 * Ruby 1.9.2
 
-USAGE
------
+== USAGE
 
 * audiogit --create name_of_project : create a new project
 * audiogit --clone project_url  : clone an existing project
@@ -18,8 +15,7 @@ USAGE
 * audiogit --publish name_of_version : publish a version
 * audiogit --show : show published versions
 
-TODO
-----
+== TODO
 
 * First run: Create git repository if not created
 * First run: ask for remote repository
