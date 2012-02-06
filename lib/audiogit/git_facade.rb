@@ -2,6 +2,6 @@ require 'git'
 
 class GitFacade
     def create
-        #Git.init
+        Git.init('.', { :repository => '.audiogit', :index => '.audiogit/index' })
     end
 end
