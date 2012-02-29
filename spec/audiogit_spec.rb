@@ -1,4 +1,3 @@
-require 'fileutils'
 require_relative "../lib/audiogit/git_facade"
 
 describe GitFacade do
