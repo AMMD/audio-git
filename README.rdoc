@@ -18,8 +18,8 @@ This project is part of the Audio-git project which aims to enable people to fre
 == TODO
 
 * First run: Create git repository if not created
-* First run: ask for remote repository
+* First run: ask for user and remote repository
 * (First run: if not provided, create automatically remote repository => later?)
 * Add required files according to session file (Ardour xml files + others)
 * Watch for change in Ardour xml file => include session files by parsing Ardour xml file
-* Publish a new version to public (=create a tag)
+* Publish a new version to public (=create a tag and push to server => need the password)
